@@ -25,12 +25,11 @@ public class HotelPage {
     }
     public HotelPage shareHotelVia(String application) {
         logger.info("Clicking the share button");
+        String xpath = String.format("//div[@data-network='%s']",application);
         try{
-            String xpath = String.format("//div[@data-network='%s']",application);
             driver.findElement(By.xpath(xpath)).click();
         } catch (NoSuchElementException e) {
             shareButton.click();
-            String xpath = String.format("//div[@data-network='%s']",application);
             SeleniumHelper.waitForElementToBeClickable(driver, By.xpath(xpath));
             driver.findElement(By.xpath(xpath)).click();
         }
