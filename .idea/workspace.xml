@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="456e7e95-1a6f-477b-a241-0eb691f9a837" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/utils/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/utils/SeleniumHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CurrencyChangeTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/HotelPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/tests/CurrencyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/tests/ShareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot75.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/utils/SeleniumHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/utils/SeleniumHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +36,69 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FvisMx8m55Fqhleih2R2UFpHcV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.kurs_selenium.pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.ShareTest.shareHotelTest">
+    <configuration name="CurrencyTest.testSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="pl.kurs_selenium_travels3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.kurs_selenium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.kurs_selenium.tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.kurs_selenium.tests.CurrencyTest" />
+      <option name="METHOD_NAME" value="testSearch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShareTest.shareHotelTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="pl.kurs_selenium_travels3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.kurs_selenium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.kurs_selenium.tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.kurs_selenium.tests.ShareTest" />
+      <option name="METHOD_NAME" value="shareHotelTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ShareTest.shareHotelTest" />
+        <item itemvalue="TestNG.CurrencyTest.testSearch" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,6 +108,19 @@
       <option name="presentableId" value="Default" />
       <updated>1665379168098</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added BaseTest;&#10;Added DriverFactory;&#10;Added SeleniumHelper;&#10;Added report method;&#10;Added screenshot method.">
+      <created>1665381250605</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665381250605</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added BaseTest;&#10;Added DriverFactory;&#10;Added SeleniumHelper;&#10;Added report method;&#10;Added screenshot method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added BaseTest;&#10;Added DriverFactory;&#10;Added SeleniumHelper;&#10;Added report method;&#10;Added screenshot method." />
   </component>
 </project>

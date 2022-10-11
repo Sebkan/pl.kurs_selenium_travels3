@@ -10,12 +10,12 @@ import org.testng.annotations.BeforeSuite;
 import pl.kurs_selenium.utils.DriverFactory;
 
 public class BaseTest {
-    private WebDriver driver;
-    private ExtentHtmlReporter extentHtmlReporter;
-    private ExtentReports extentReports;
+    public WebDriver driver;
+    public ExtentHtmlReporter extentHtmlReporter;
+    public ExtentReports extentReports;
     @BeforeSuite
     public void beforeSuite() {
-        extentHtmlReporter = new ExtentHtmlReporter("index.html");
+        extentHtmlReporter = new ExtentHtmlReporter("SharingHotelTest.html");
         extentReports = new ExtentReports();
         extentReports.attachReporter(extentHtmlReporter);
     }
@@ -28,10 +28,10 @@ public class BaseTest {
     public void setup() {
         driver = DriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
-        driver.get("https://kurs-selenium.pl");
+        driver.get("http://kurs-selenium.pl");
     }
     @AfterMethod
     public void tearDown() {
-        driver.quit();
+       driver.quit();
     }
 }
