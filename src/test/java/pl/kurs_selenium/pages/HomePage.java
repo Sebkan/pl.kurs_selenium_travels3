@@ -19,6 +19,10 @@ public class HomePage {
     private List<WebElement> bookNowButton;
     @FindBy(xpath = "//a[contains(text(),'Offers')]")
     private WebElement offersButton;
+    @FindBy(xpath = "//a[text()=' My Account ']")
+    private List<WebElement> myAccountLink;
+    @FindBy(xpath = "//a[text()='  Sign Up']")
+    private List<WebElement> signUpLink;
     private static Logger logger = LogManager.getLogger();
     private WebDriver driver;
     public HomePage(WebDriver driver) {
@@ -67,4 +71,16 @@ public class HomePage {
         offersButton.click();
         return new OffersPage(driver);
     }
+    public SignUpPage signUp(){
+        myAccountLink.stream()
+                .filter(WebElement::isDisplayed)
+                .findFirst()
+                .ifPresent(WebElement::click);
+        signUpLink.stream()
+                .filter(WebElement::isDisplayed)
+                .findFirst()
+                .ifPresent(WebElement::click);
+        return new SignUpPage(driver);
+    }
+
 }
