@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="456e7e95-1a6f-477b-a241-0eb691f9a837" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CurrencyChangeTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/HotelPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/tests/CurrencyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/tests/ShareTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/screenshots/screenshot75.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/OffersPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/tests/OffersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/utils/ExcelReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UserData.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/utils/SeleniumHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/utils/SeleniumHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/HomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +49,24 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pl.kurs_selenium.pages" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sebka\Desktop\pl.kurs_selenium_travels3\src\test\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.ShareTest.shareHotelTest">
+  <component name="RunManager" selected="Application.ExcelReader">
+    <configuration name="ExcelReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.kurs_selenium.utils.ExcelReader" />
+      <module name="pl.kurs_selenium_travels3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.kurs_selenium.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CurrencyTest.testSearch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="pl.kurs_selenium_travels3" />
       <extension name="coverage">
@@ -67,6 +78,24 @@
       <option name="PACKAGE_NAME" value="pl.kurs_selenium.tests" />
       <option name="MAIN_CLASS_NAME" value="pl.kurs_selenium.tests.CurrencyTest" />
       <option name="METHOD_NAME" value="testSearch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OffersTest.checkOffersTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="pl.kurs_selenium_travels3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.kurs_selenium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.kurs_selenium.tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.kurs_selenium.tests.OffersTest" />
+      <option name="METHOD_NAME" value="checkOffersTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -94,6 +123,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExcelReader" />
+        <item itemvalue="TestNG.OffersTest.checkOffersTest" />
         <item itemvalue="TestNG.ShareTest.shareHotelTest" />
         <item itemvalue="TestNG.CurrencyTest.testSearch" />
       </list>
@@ -115,12 +146,36 @@
       <option name="project" value="LOCAL" />
       <updated>1665381250605</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added ShareTest;&#10;Created test reports with attached screenshots;&#10;Added numerous wait methods in SeleniumHelper.">
+      <created>1665474050080</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665474050080</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added new report.">
+      <created>1665474171434</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665474171434</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Duplicated lines deleted and substituted.">
+      <created>1665474684608</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665474684608</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added BaseTest;&#10;Added DriverFactory;&#10;Added SeleniumHelper;&#10;Added report method;&#10;Added screenshot method." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added BaseTest;&#10;Added DriverFactory;&#10;Added SeleniumHelper;&#10;Added report method;&#10;Added screenshot method." />
+    <MESSAGE value="Added ShareTest;&#10;Created test reports with attached screenshots;&#10;Added numerous wait methods in SeleniumHelper." />
+    <MESSAGE value="Added new report." />
+    <MESSAGE value="Duplicated lines deleted and substituted." />
+    <option name="LAST_COMMIT_MESSAGE" value="Duplicated lines deleted and substituted." />
   </component>
 </project>

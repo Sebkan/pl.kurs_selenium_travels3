@@ -2,7 +2,6 @@ package pl.kurs_selenium.pages;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.internal.LogManagerStatus;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,6 +17,8 @@ public class HomePage {
     private List<WebElement> currencyLink;
     @FindBy(xpath = "//a[@class='loader wow animated']")
     private List<WebElement> bookNowButton;
+    @FindBy(xpath = "//a[contains(text(),'Offers')]")
+    private WebElement offersButton;
     private static Logger logger = LogManager.getLogger();
     private WebDriver driver;
     public HomePage(WebDriver driver) {
@@ -61,5 +62,9 @@ public class HomePage {
                 .ifPresent(WebElement::click);
         logger.info("Button clicked");
         return new HotelPage(driver);
+    }
+    public OffersPage goToOffers() {
+        offersButton.click();
+        return new OffersPage(driver);
     }
 }
