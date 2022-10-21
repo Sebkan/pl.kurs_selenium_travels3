@@ -1,4 +1,4 @@
-package pl.kurs_selenium.pages;
+package pl.my_project.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class OffersPage {
     @FindBy(xpath = "//h4[@class='ellipsis bold mb0 go-right RTL']")

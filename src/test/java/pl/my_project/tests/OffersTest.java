@@ -1,10 +1,9 @@
-package pl.kurs_selenium.tests;
+package pl.my_project.tests;
 
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pl.kurs_selenium.pages.HomePage;
-import pl.kurs_selenium.pages.OffersPage;
+import pl.my_project.pages.HomePage;
 
 import java.util.List;
 

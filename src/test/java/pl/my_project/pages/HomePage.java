@@ -1,4 +1,4 @@
-package pl.kurs_selenium.pages;
+package pl.my_project.pages;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import pl.kurs_selenium.utils.SeleniumHelper;
+import pl.my_project.utils.SeleniumHelper;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package pl.kurs_selenium.tests;
+package pl.my_project.tests;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
@@ -7,7 +7,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import pl.kurs_selenium.utils.DriverFactory;
+import pl.my_project.utils.DriverFactory;
 
 public class BaseTest {
     public WebDriver driver;

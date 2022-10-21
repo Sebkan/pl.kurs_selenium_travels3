@@ -1,4 +1,4 @@
-package pl.kurs_selenium.utils;
+package pl.my_project.utils;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

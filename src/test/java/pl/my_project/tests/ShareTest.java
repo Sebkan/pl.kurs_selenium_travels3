@@ -1,12 +1,12 @@
-package pl.kurs_selenium.tests;
+package pl.my_project.tests;
 
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pl.kurs_selenium.pages.HomePage;
-import pl.kurs_selenium.utils.SeleniumHelper;
+import pl.my_project.pages.HomePage;
+import pl.my_project.utils.SeleniumHelper;
 
 import java.io.IOException;
 

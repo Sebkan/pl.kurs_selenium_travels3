@@ -1,9 +1,9 @@
-package pl.kurs_selenium.tests;
+package pl.my_project.tests;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import pl.kurs_selenium.pages.HomePage;
-import pl.kurs_selenium.utils.ExcelReader;
+import pl.my_project.pages.HomePage;
+import pl.my_project.utils.ExcelReader;
 
 import java.io.IOException;
 

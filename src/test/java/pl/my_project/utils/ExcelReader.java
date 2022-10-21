@@ -1,4 +1,4 @@
-package pl.kurs_selenium.utils;
+package pl.my_project.utils;
 
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Row;

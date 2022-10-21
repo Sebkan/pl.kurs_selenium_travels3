@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="456e7e95-1a6f-477b-a241-0eb691f9a837" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/RegisteredUserPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/SignUpPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/tests/RegisterTestWithDataProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/utils/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/utils/ExcelReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/my_project/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/HotelPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/my_project/pages/HotelPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/OffersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/my_project/pages/OffersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/RegisteredUserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/my_project/pages/RegisteredUserPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/my_project/pages/SignUpPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/my_project/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/tests/CurrencyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/my_project/tests/CurrencyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/tests/OffersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/my_project/tests/OffersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/tests/RegisterTestWithDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/my_project/tests/RegisterTestWithDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/tests/ShareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/my_project/tests/ShareTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/utils/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/my_project/utils/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/utils/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/my_project/utils/ExcelReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kurs_selenium/utils/SeleniumHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/my_project/utils/SeleniumHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +63,11 @@
   </component>
   <component name="RunManager" selected="TestNG.RegisterTestWithDataProvider.signUpWithDP">
     <configuration name="ExcelReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.kurs_selenium.utils.ExcelReader" />
+      <option name="MAIN_CLASS_NAME" value="pl.my_project.utils.ExcelReader" />
       <module name="pl.kurs_selenium_travels3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.kurs_selenium.utils.*" />
+          <option name="PATTERN" value="pl.my_project.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +79,12 @@
       <module name="pl.kurs_selenium_travels3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.kurs_selenium.tests.*" />
+          <option name="PATTERN" value="pl.my_project.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.kurs_selenium.tests" />
-      <option name="MAIN_CLASS_NAME" value="pl.kurs_selenium.tests.OffersTest" />
+      <option name="MAIN_CLASS_NAME" value="pl.my_project.tests.OffersTest" />
       <option name="METHOD_NAME" value="checkOffersTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -89,12 +97,12 @@
       <module name="pl.kurs_selenium_travels3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.kurs_selenium.tests.*" />
+          <option name="PATTERN" value="pl.my_project.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.kurs_selenium.tests" />
-      <option name="MAIN_CLASS_NAME" value="pl.kurs_selenium.tests.RegisterTestWithDataProvider" />
+      <option name="MAIN_CLASS_NAME" value="pl.my_project.tests.RegisterTestWithDataProvider" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -106,12 +114,12 @@
       <module name="pl.kurs_selenium_travels3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.kurs_selenium.tests.*" />
+          <option name="PATTERN" value="pl.my_project.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.kurs_selenium.tests" />
-      <option name="MAIN_CLASS_NAME" value="pl.kurs_selenium.tests.RegisterTestWithDataProvider" />
+      <option name="MAIN_CLASS_NAME" value="pl.my_project.tests.RegisterTestWithDataProvider" />
       <option name="METHOD_NAME" value="signUpWithDP" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -124,12 +132,12 @@
       <module name="pl.kurs_selenium_travels3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.kurs_selenium.tests.*" />
+          <option name="PATTERN" value="pl.my_project.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.kurs_selenium.tests" />
-      <option name="MAIN_CLASS_NAME" value="pl.kurs_selenium.tests.ShareTest" />
+      <option name="MAIN_CLASS_NAME" value="pl.my_project.tests.ShareTest" />
       <option name="METHOD_NAME" value="shareHotelTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -192,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666270880364</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created RegisteredUserPage and RegisterTestWithDataProvider;&#10;Added DataProvider using ExcelReader.">
+      <created>1666273985421</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666273985421</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -202,6 +217,7 @@
     <MESSAGE value="Added new report." />
     <MESSAGE value="Duplicated lines deleted and substituted." />
     <MESSAGE value="Added userData.xlsx;&#10;Created method that reads excel files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added userData.xlsx;&#10;Created method that reads excel files." />
+    <MESSAGE value="Created RegisteredUserPage and RegisterTestWithDataProvider;&#10;Added DataProvider using ExcelReader." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created RegisteredUserPage and RegisterTestWithDataProvider;&#10;Added DataProvider using ExcelReader." />
   </component>
 </project>
